@@ -5,33 +5,106 @@
 
 .header{
     background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .header button {
     background-color: #3882F6;
     color: #F9FAF8;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
-
+    font-weight: bold;
+    margin-left: 80px;
 }
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 80px;
+    gap: 20px;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.container-awesome {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+}
+
+.container-placeholder {
+    display: flex;
+}
+
 .title {
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: bolder;
 }
 
-.subtitle {
+.header .subtitle {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.placeholder {
+    background-color: grey;
+    align-self: center;
+    padding: 70px;
+    margin: 100px;
+    margin-left: -40px;
+    flex-shrink: 0;
+}
+
+.content-two {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .random {
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
+    margin: 30px;
+    text-align: center;
+}
+
+.box {
+    border-radius: 25px;
+    border: 4px solid #3882F6;
+    padding 20px;
+    width: 130px;
+    height: 130px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: -30px;
+}
+
+.box-horizontal {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    text-align: center;
+    gap: 65px;
 }
 
 .quote {
@@ -40,9 +113,15 @@
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+    padding: 80px;
+}
+
+.action {
+    font-weight: bold;
 }
 
 .sign-up {
     background-color: #3882F6;
     color: #F9FAF8;
+
 }
